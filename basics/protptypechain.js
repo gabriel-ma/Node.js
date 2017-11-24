@@ -8,3 +8,7 @@ Person.prototype.greet = function(){
 var gabriel = new Person("Gabriel", "Machado");
 //console.log(gabriel.name);
 //gabriel.greet();
+//immediately called function
+(function (){
+	console.log("gabriel");
+}());
