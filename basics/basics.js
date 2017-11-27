@@ -21,4 +21,17 @@ sayMyName(function (){
 	return "SAY WHAT AGAIN, SAY WHAT AGAIN I DARE YOU, I DOUBLE DARE YOU MOTHERFUCKER SAY WHAT ONE MORE GODDAMN TIME!";
 });*/
 //calls function provided by the module
-mod();
+//mod();
+var arr = [];
+arr.push(function(){
+	console.log(1);
+});
+arr.push(function(){
+	console.log(2);
+});
+arr.push(function(){
+	console.log(3);
+});
+arr.forEach(function(item){
+	item();
+});
